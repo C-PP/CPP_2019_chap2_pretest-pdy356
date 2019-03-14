@@ -11,7 +11,7 @@ int main(void)
 {
 	int A[ROWS][COLS];
 
-	random_walk(A, ROWS); /// 
+	random_walk(A, ROWS);
 
 	printf("Matrix A:");
 	show((int *)A, ROWS, COLS);
@@ -20,6 +20,7 @@ int main(void)
 	return 0;
 }
 
+// test
 void random_walk(int(*a)[COLS], int rows) /// this function assign values to 2d array
 {
 	for (int r = 0; r < rows; r++)
